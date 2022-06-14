@@ -43,11 +43,12 @@ function draw(){
     }
     fill("#FF0000");
     text("Dog",45,75);
-    nofill("#FF0000");
+    nofill();
+    stroke("#FF0000");
     rect(30,60,450,350);
 
     fill("#FF0000");
-    text('Cat',320,120);
+    text("Cat",320,120);
     nofill();
     stroke("#FF0000");
     rect(300,90,270,320);
