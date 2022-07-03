@@ -53,15 +53,15 @@ function draw(){
             rect(object[i].x,object[i].y,object[i].width,object[i].height);
         }
     }
-    fill("#FF0000");
-    text("Dog",45,75);
-    nofill();
-    stroke("#FF0000");
-    rect(30,60,450,350);
+    //fill("#FF0000");
+    //text("Dog",45,75);
+  //  nofill();
+  //  stroke("#FF0000");
+  //  rect(30,60,450,350);
 
-    fill("#FF0000");
-    text("Cat",320,120);
-    nofill();
-    stroke("#FF0000");
-    rect(300,90,270,320);
+  //  fill("#FF0000");
+   // text("Cat",320,120);
+   // nofill();
+   // stroke("#FF0000");
+   // rect(300,90,270,320);
 }
